@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color: #ff7226;
+}
+h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    text-align: justify;
+    color: aliceblue;
+}
+
+body {
+    background-color: #222222;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.blue-square-container {
+    color: aliceblue;
+    text-align: center;
+}
+
+.blue-square {
+  background-color: #0074D9;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.yellow-square {
+  background-color: #FFDC00;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.green-square {
+  background-color: #3D9970;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
